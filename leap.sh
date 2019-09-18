@@ -6,15 +6,15 @@ rm -f cbs.log
 
 cat <<eof > cbs.log
 
-parm98 = loadAmberParams /home/laia/cbs/top/param/hemo.prm
+loadAmberParams /home/laia/cbs/top/param/hemo.prm
 loadamberprep /home/laia/cbs/top/param/hem_fe3_hexa_cys.in
-parm98 = loadAmberParams /home/laia/cbs/top/param/plp.prm
+loadAmberParams /home/laia/cbs/top/param/plp.prm
 loadamberprep /home/laia/cbs/top/param/plp.in
-parm98 = loadAmberParams /home/laia/cbs/top/param/lyx.prm
+loadAmberParams /home/laia/cbs/top/param/lyx.prm
 loadamberprep /home/laia/cbs/top/param/lyx.in
-parm98 = loadAmberParams /home/laia/cbs/top/param/sam.prm
+loadAmberParams /home/laia/cbs/top/param/sam.prm
 loadamberprep /home/laia/cbs/top/param/sam.in
-parm98 = loadAmberParams /home/laia/cbs/top/param/cyx.prm
+loadAmberParams /home/laia/cbs/top/param/cyx.prm
 loadamberprep /home/laia/cbs/top/param/cyx_fe3.in
 
 p=loadpdb cbs.pdb
@@ -32,15 +32,15 @@ rm -f cbs2.log
 
 cat <<eof > cbs2.log
 
-parm98 = loadAmberParams /home/laia/cbs/top/param/hemo.prm
+loadAmberParams /home/laia/cbs/top/param/hemo.prm
 loadamberprep /home/laia/cbs/top/param/hem_fe3_hexa_cys.in
-parm98 = loadAmberParams /home/laia/cbs/top/param/plp.prm
+loadAmberParams /home/laia/cbs/top/param/plp.prm
 loadamberprep /home/laia/cbs/top/param/plp.in
-parm98 = loadAmberParams /home/laia/cbs/top/param/lyx.prm
+loadAmberParams /home/laia/cbs/top/param/lyx.prm
 loadamberprep /home/laia/cbs/top/param/lyx.in
-parm98 = loadAmberParams /home/laia/cbs/top/param/sam.prm
+loadAmberParams /home/laia/cbs/top/param/sam.prm
 loadamberprep /home/laia/cbs/top/param/sam.in
-parm98 = loadAmberParams /home/laia/cbs/top/param/cyx.prm
+loadAmberParams /home/laia/cbs/top/param/cyx.prm
 loadamberprep /home/laia/cbs/top/param/cyx_fe3.in
 
 p=loadpdb cbs_fe3_2.pdb
